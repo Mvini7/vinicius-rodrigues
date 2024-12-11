@@ -81,6 +81,11 @@ body {
     align-items: center;
 }
 
+.linkedin a button:hover {
+  background: #111790;
+  transform: scale(1.05);
+}
+
 .linkedin button h1 {
     font-size: 20px;
     margin-left: 150px;
@@ -109,6 +114,11 @@ body {
     font-size: 8px;
     display: flex;
     align-items: center;
+}
+
+.github a button:hover {
+  background: #111790;
+  transform: scale(1.05);
 }
 
 .github button h1 {
@@ -141,6 +151,11 @@ body {
     align-items: center;
 }
 
+.instagram a button:hover {
+  background: #111790;
+  transform: scale(1.05);
+}
+
 .instagram button h1 {
     font-size: 20px;
     margin-left: 145px;
@@ -171,6 +186,11 @@ body {
     align-items: center;
 }
 
+.portifolio a button:hover {
+  background: #111790;
+  transform: scale(1.05);
+}
+
 .portifolio button h1 {
     font-size: 20px;
     margin-left: 145px;
@@ -179,4 +199,9 @@ body {
 .portifolio i {
     font-size: 38px;
     margin-left: -175px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
